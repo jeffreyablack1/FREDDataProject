@@ -1,3 +1,4 @@
 fred_env/
 .DS_Store
 .vscode
+config.py
