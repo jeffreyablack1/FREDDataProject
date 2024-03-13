@@ -1,0 +1,5 @@
+fred_economic_data: 
+  outputs: 
+    dev:
+      type: duckdb
+  target: dev
