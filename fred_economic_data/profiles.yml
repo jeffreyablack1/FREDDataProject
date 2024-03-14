@@ -2,4 +2,5 @@ fred_economic_data:
   outputs: 
     dev:
       type: duckdb
+      path: /Users/jeffreyblack/Projects/FREDDataProject/data/fred.db
   target: dev
