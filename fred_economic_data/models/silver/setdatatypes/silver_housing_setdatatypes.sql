@@ -6,5 +6,6 @@ CAST(Units AS NVARCHAR(60)) AS Units,
 CAST(AdjSeas AS BOOLEAN) AS AdjSeas,
 CAST(Freq AS NVARCHAR(60)) AS Freq,
 CAST(LastUpdatedDate AS DATETIME(7)) AS LastUpdatedDate,
+CAST(Category AS NVARCHAR(60)) AS Category,
 CAST(FetchDate AS DATETIME(7)) AS FetchDate
 FROM {{ref('silver_housing_addcategory')}}
