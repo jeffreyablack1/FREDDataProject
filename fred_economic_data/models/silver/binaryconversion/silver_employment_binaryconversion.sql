@@ -4,8 +4,8 @@ Series,
 Name,
 Units,
 CASE 
-    WHEN AdjSeas = 'Not Seasonally Adjusted' THEN 0 
-    WHEN AdjSeas = 'Seasonally Adjusted' THEN 1 
+    WHEN AdjSeas = 'Not Seasonally Adjusted' THEN FALSE 
+    WHEN AdjSeas = 'Seasonally Adjusted' THEN TRUE 
     ELSE NULL 
 END AS AdjSeas,
 Freq,
