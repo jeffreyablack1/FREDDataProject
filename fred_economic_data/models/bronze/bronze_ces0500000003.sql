@@ -7,4 +7,4 @@ seasonal_adjustment AS AdjSeas,
 frequency AS Freq,
 fred_last_updated_date AS LastUpdatedDate,
 fetch_date AS FetchDate
-FROM ppiaco
+FROM ces0500000003
