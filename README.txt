@@ -1,5 +1,19 @@
+NOTICE
+----------------
+This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.
+
+
+
 ECONOMIC DATA ENABLEMENT PROJECT
 ================================
+
+UPDATE: 2024-3-18
+----------------
+I've used this Jupyter notebook for DBT tasks and have already pushed initial code to GitHub's main branch. 
+Next, I'll create branches for each phase: converting pandas code to Apache Spark for scalability, containerizing with Docker, setting up Airflow for orchestration, and integrating SODA-core for data quality. 
+It's worth noting that DBT automatically handles documentation as part of its functionality, aiding in maintaining clear and up-to-date project documentation. 
+For the UI, options will include pushing gold tables to AWS S3, an on-prem location via ODBC, or exporting them to Excel, each refreshed daily. 
+At this UI stage, secured connections and data encryption will be established to ensure data security. This approach ensures an organized, efficient, and secure development process.
 
 PROJECT OVERVIEW
 ----------------
