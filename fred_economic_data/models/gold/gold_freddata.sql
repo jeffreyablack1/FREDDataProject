@@ -1,9 +1,13 @@
-SELECT Date, Series, Name, Units, AdjSeas, Freq, Category FROM {{ref('silver_energy_restrictdate')}} 
-UNION ALL 
-SELECT Date, Series, Name, Units, AdjSeas, Freq, Category FROM {{ref('silver_cpi_ppi_sentiment_restrictdate')}} 
-UNION ALL 
-SELECT Date, Series, Name, Units, AdjSeas, Freq, Category FROM {{ref('silver_employment_restrictdate')}} 
-UNION ALL 
-SELECT Date, Series, Name, Units, AdjSeas, Freq, Category FROM {{ref('silver_federal_funds_restrictdate')}} 
-UNION ALL 
-SELECT Date, Series, Name, Units, AdjSeas, Freq, Category FROM {{ref('silver_housing_restrictdate')}}
+
+    SELECT 
+    fs.Date,
+    fs.Series,
+    ds.Name,
+    ds.Frequency,
+    ds.Units,
+    ds.SeasAdjBool AS SeasonallyAdjusted,
+    dc.Category
+    FROM {{ ref('silver_FactSeries_setdatatypes') }} fs
+    LEFT JOIN {{ ref('silver_DimSeries_setdatatypes') }} ds ON ds.SeriesID = fs.SeriesID 
+    LEFT JOIN {{ ref('silver_DimCategories_setdatatypes') }} dc ON dc.SeriesID = fs.SeriesID
+    
