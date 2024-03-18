@@ -55,4 +55,3 @@ def execute_dbt_commands():
 
 def main(target_directory):
     create_gold_sql_union_all_file(target_directory)
-    #execute_dbt_commands()

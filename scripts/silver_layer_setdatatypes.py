@@ -80,4 +80,3 @@ def execute_dbt_commands():
 
 def main(target_directory):
     create_sql_set_datatypes_files(target_directory)
-    #execute_dbt_commands()

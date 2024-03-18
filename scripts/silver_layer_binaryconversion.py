@@ -62,4 +62,3 @@ def execute_dbt_commands():
 
 def main(target_directory):
     create_silver_sql_binaryconversion_file(target_directory)
-    #execute_dbt_commands()
