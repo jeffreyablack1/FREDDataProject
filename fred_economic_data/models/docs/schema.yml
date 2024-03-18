@@ -1,724 +1,559 @@
 models:
-      - name: bronze_dcoilwtico
-    description: '{{ doc("bronze_dcoilwtico")}}'
-    columns: 
+  - name: bronze_FactDCOILWTICO
+    description: '{{ doc("bronze_FactDCOILWTICO") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_gasregw
-    description: '{{ doc("bronze_gasregw")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactGASREGW
+    description: '{{ doc("bronze_FactGASREGW") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_dpropanembtx
-    description: '{{ doc("bronze_dpropanembtx")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactDPROPANEMBTX
+    description: '{{ doc("bronze_FactDPROPANEMBTX") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_cpiaucsl
-    description: '{{ doc("bronze_cpiaucsl")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactCPIAUCSL
+    description: '{{ doc("bronze_FactCPIAUCSL") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_ppiaco
-    description: '{{ doc("bronze_ppiaco")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactPPIACO
+    description: '{{ doc("bronze_FactPPIACO") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_pce
-    description: '{{ doc("bronze_pce")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactPCE
+    description: '{{ doc("bronze_FactPCE") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_cpilfesl
-    description: '{{ doc("bronze_cpilfesl")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactCPILFESL
+    description: '{{ doc("bronze_FactCPILFESL") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_umcsent
-    description: '{{ doc("bronze_umcsent")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactUMCSENT
+    description: '{{ doc("bronze_FactUMCSENT") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_pcepilfe
-    description: '{{ doc("bronze_pcepilfe")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactPCEPILFE
+    description: '{{ doc("bronze_FactPCEPILFE") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_mich
-    description: '{{ doc("bronze_mich")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactMICH
+    description: '{{ doc("bronze_FactMICH") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_payems
-    description: '{{ doc("bronze_payems")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactPAYEMS
+    description: '{{ doc("bronze_FactPAYEMS") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_unrate
-    description: '{{ doc("bronze_unrate")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactUNRATE
+    description: '{{ doc("bronze_FactUNRATE") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_ces0500000003
-    description: '{{ doc("bronze_ces0500000003")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactCES0500000003
+    description: '{{ doc("bronze_FactCES0500000003") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_civpart
-    description: '{{ doc("bronze_civpart")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactCIVPART
+    description: '{{ doc("bronze_FactCIVPART") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_jtsjol
-    description: '{{ doc("bronze_jtsjol")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactJTSJOL
+    description: '{{ doc("bronze_FactJTSJOL") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_icsa
-    description: '{{ doc("bronze_icsa")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactICSA
+    description: '{{ doc("bronze_FactICSA") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_adpwnusnersa
-    description: '{{ doc("bronze_adpwnusnersa")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactADPWNUSNERSA
+    description: '{{ doc("bronze_FactADPWNUSNERSA") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_u6rate
-    description: '{{ doc("bronze_u6rate")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactU6RATE
+    description: '{{ doc("bronze_FactU6RATE") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_awhnonag
-    description: '{{ doc("bronze_awhnonag")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactAWHNONAG
+    description: '{{ doc("bronze_FactAWHNONAG") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_fedfunds
-    description: '{{ doc("bronze_fedfunds")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactFEDFUNDS
+    description: '{{ doc("bronze_FactFEDFUNDS") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_dfedtar
-    description: '{{ doc("bronze_dfedtar")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactDFEDTAR
+    description: '{{ doc("bronze_FactDFEDTAR") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_ioer
-    description: '{{ doc("bronze_ioer")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactIOER
+    description: '{{ doc("bronze_FactIOER") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_discount
-    description: '{{ doc("bronze_discount")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactDISCOUNT
+    description: '{{ doc("bronze_FactDISCOUNT") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_dgs10
-    description: '{{ doc("bronze_dgs10")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactDGS10
+    description: '{{ doc("bronze_FactDGS10") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_sofr
-    description: '{{ doc("bronze_sofr")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactSOFR
+    description: '{{ doc("bronze_FactSOFR") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_prime
-    description: '{{ doc("bronze_prime")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactPRIME
+    description: '{{ doc("bronze_FactPRIME") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_tb3ms
-    description: '{{ doc("bronze_tb3ms")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactTB3MS
+    description: '{{ doc("bronze_FactTB3MS") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_cpff
-    description: '{{ doc("bronze_cpff")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactCPFF
+    description: '{{ doc("bronze_FactCPFF") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_csushpinsa
-    description: '{{ doc("bronze_csushpinsa")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactCSUSHPINSA
+    description: '{{ doc("bronze_FactCSUSHPINSA") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_hsn1f
-    description: '{{ doc("bronze_hsn1f")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactHSN1F
+    description: '{{ doc("bronze_FactHSN1F") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_permit
-    description: '{{ doc("bronze_permit")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactPERMIT
+    description: '{{ doc("bronze_FactPERMIT") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_houst
-    description: '{{ doc("bronze_houst")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactHOUST
+    description: '{{ doc("bronze_FactHOUST") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_ussthpi
-    description: '{{ doc("bronze_ussthpi")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactUSSTHPI
+    description: '{{ doc("bronze_FactUSSTHPI") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_exhoslusm495s
-    description: '{{ doc("bronze_exhoslusm495s")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactEXHOSLUSM495S
+    description: '{{ doc("bronze_FactEXHOSLUSM495S") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_mortgage30us
-    description: '{{ doc("bronze_mortgage30us")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactMORTGAGE30US
+    description: '{{ doc("bronze_FactMORTGAGE30US") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_rrvrusq156n
-    description: '{{ doc("bronze_rrvrusq156n")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactRRVRUSQ156N
+    description: '{{ doc("bronze_FactRRVRUSQ156N") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_rhorusq156n
-    description: '{{ doc("bronze_rhorusq156n")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactRHORUSQ156N
+    description: '{{ doc("bronze_FactRHORUSQ156N") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-      - name: bronze_hosinvusm495n
-    description: '{{ doc("bronze_hosinvusm495n")}}'
-    columns: 
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_FactHOSINVUSM495N
+    description: '{{ doc("bronze_FactHOSINVUSM495N") }}'
+    columns:
       - name: Date
-        description: '{{ doc("Date")}}'
+        description: '{{ doc("Date") }}'
       - name: Series
-        description: '{{ doc("Series")}}'
-      - name: Name
-        description: '{{ doc("Name")}}'
-      - name: Units
-        description: '{{ doc("Units")}}'
-      - name: AdjSeas
-        description: '{{ doc("AdjSeas")}}'
-      - name: Freq
-        description: '{{ doc("Freq")}}'
-      - name: LastUpdatedDate
-        description: '{{ doc("LastUpdatedDate")}}'
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
       - name: FetchDate
-        description: '{{ doc("FetchDate")}}'
-    
+        description: '{{ doc("FetchDate") }}'
+  - name: bronze_DimCategories
+    description: This dimension table is the metadata that categorizes each series into binned groups determined at user input of data pipeline start. 
+    columns:
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
+      - name: Category
+        description: '{{ doc("Category") }}'
+  - name: bronze_DimSeries
+    description: This dimension table is the metadata for each series and is defined by the FRED. 
+    columns:
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
+      - name: RealTimeStart
+        description: '{{ doc("RealTimeStart") }}'
+      - name: RealTimeEnd
+        description: '{{ doc("RealTimeEnd") }}'
+      - name: Name
+        description: '{{ doc("Name") }}'
+      - name: ObservationStart
+        description: '{{ doc("ObservationStart") }}'
+      - name: ObservationEnd
+        description: '{{ doc("ObservationEnd") }}'
+      - name: Frequency
+        description: '{{ doc("Frequency") }}'
+      - name: FrequencyAbbr
+        description: '{{ doc("FrequencyAbbr") }}'
+      - name: Units
+        description: '{{ doc("Units") }}'
+      - name: UnitsAbbr
+        description: '{{ doc("UnitsAbbr") }}'
+      - name: SeasAdj
+        description: '{{ doc("SeasAdj") }}'
+      - name: SeasAdjAbbr
+        description: '{{ doc("SeasAdjAbbr") }}'
+      - name: SeasAdjBool
+        description: '{{ doc("SeasAdjBool") }}'
+  - name: silver_FactSeries_unionall
+    description: This table unions all bronze Fact tables into one vertical table.
+    columns:
+      - name: Date
+        description: '{{ doc("Date") }}'
+      - name: Series
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
+      - name: FetchDate
+        description: '{{ doc("FetchDate") }}'
+  - name: silver_FactSeries_setdatatypes
+    description: This table explicitly assigns datatypes to each column. 
+    columns:
+      - name: Date
+        description: '{{ doc("Date") }}'
+      - name: Series
+        description: '{{ doc("Series") }}'
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
+      - name: FetchDate
+        description: '{{ doc("FetchDate") }}'
+  - name: silver_DimSeries_setdatatypes
+    description: This table explicitly assigns datatypes to each column. 
+    columns:
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
+      - name: RealTimeStart
+        description: '{{ doc("RealTimeStart") }}'
+      - name: RealTimeEnd
+        description: '{{ doc("RealTimeEnd") }}'
+      - name: Name
+        description: '{{ doc("Name") }}'
+      - name: ObservationStart
+        description: '{{ doc("ObservationStart") }}'
+      - name: ObservationEnd
+        description: '{{ doc("ObservationEnd") }}'
+      - name: Frequency
+        description: '{{ doc("Frequency") }}'
+      - name: FrequencyAbbr
+        description: '{{ doc("FrequencyAbbr") }}'
+      - name: Units
+        description: '{{ doc("Units") }}'
+      - name: UnitsAbbr
+        description: '{{ doc("UnitsAbbr") }}'
+      - name: SeasAdj
+        description: '{{ doc("SeasAdj") }}'
+      - name: SeasAdjAbbr
+        description: '{{ doc("SeasAdjAbbr") }}'
+      - name: SeasAdjBool
+        description: '{{ doc("SeasAdjBool") }}'
+  - name: silver_DimSeries_binaryconversion
+    description: This table adds a column of data for Seasonality Adjustment (True/False). 
+    columns:
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
+      - name: RealTimeStart
+        description: '{{ doc("RealTimeStart") }}'
+      - name: RealTimeEnd
+        description: '{{ doc("RealTimeEnd") }}'
+      - name: Name
+        description: '{{ doc("Name") }}'
+      - name: ObservationStart
+        description: '{{ doc("ObservationStart") }}'
+      - name: ObservationEnd
+        description: '{{ doc("ObservationEnd") }}'
+      - name: Frequency
+        description: '{{ doc("Frequency") }}'
+      - name: FrequencyAbbr
+        description: '{{ doc("FrequencyAbbr") }}'
+      - name: Units
+        description: '{{ doc("Units") }}'
+      - name: UnitsAbbr
+        description: '{{ doc("UnitsAbbr") }}'
+      - name: SeasAdj
+        description: '{{ doc("SeasAdj") }}'
+      - name: SeasAdjAbbr
+        description: '{{ doc("SeasAdjAbbr") }}'
+      - name: SeasAdjBool
+        description: '{{ doc("SeasAdjBool") }}'
+  - name: silver_DimCategories_setdatatypes
+    description: This table explicitly assigns datatypes to each column. 
+    columns:
+      - name: SeriesID
+        description: '{{ doc("SeriesID") }}'
+      - name: Category
+        description: '{{ doc("Category") }}'
+  - name: gold_freddata
+    description: This is the final table of all series and is ready for analytics ingestion. 
+    columns:
+      - name: Date
+        description: '{{ doc("Date") }}'
+      - name: Series
+        description: '{{ doc("Series") }}'
+      - name: Name
+        description: '{{ doc("Name") }}'
+      - name: Frequency
+        description: '{{ doc("Frequency") }}'
+      - name: Units
+        description: '{{ doc("Units") }}'
+      - name: SeasonallyAdjusted
+        description: '{{ doc("SeasAdj") }}'
+      - name: Category
+        description: '{{ doc("Category") }}'
