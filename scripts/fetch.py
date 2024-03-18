@@ -3,7 +3,7 @@ from fredapi import Fred
 import certifi
 import os
 import sys
-from config import FRED_API_KEY
+from scripts.config import FRED_API_KEY
 from datetime import datetime, timedelta, date
 today_date = date.today().strftime('%Y-%m-%d') #Fetch Date
 

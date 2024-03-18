@@ -3,7 +3,7 @@ import time
 import os
 from fredapi import Fred
 import certifi
-from config import FRED_API_KEY
+from scripts.config import FRED_API_KEY
 
 os.environ['SSL_CERT_FILE'] = certifi.where()
 fred = Fred(api_key=FRED_API_KEY)
