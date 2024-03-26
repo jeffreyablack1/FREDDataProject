@@ -1,0 +1,7 @@
+{{ config(severity = 'warn')}}
+SELECT 
+Date AS BelowThresholdDates,
+FROM {{ref('gold_freddata')}}
+GROUP BY 
+Date
+HAVING MIN(Date) <= (CURRENT_DATE - INTERVAL '50 years')

@@ -87,6 +87,7 @@ def fetch_fred_data(series_ids):
         metadata = fetch_metadata(series_id)
         if not series_data.empty:
             df = construct_dataframe(series_data, series_id, today_date)
+            df = df.dropna()
             dataframes.append(df)
         if not metadata.empty:
             metadata_records.append(metadata)

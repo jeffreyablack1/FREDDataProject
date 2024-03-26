@@ -27,8 +27,9 @@ UnitsAbbr,
 SeasAdj,
 SeasAdjAbbr,
 CASE 
-    WHEN SeasAdjAbbr = 'NSA' THEN FALSE 
-    WHEN SeasAdjAbbr = 'SA' THEN TRUE 
+    WHEN SeasAdjAbbr = 'NSA' THEN False 
+    WHEN SeasAdjAbbr = 'SA' THEN True 
+    WHEN SeasAdjAbbr = 'SAAR' THEN True 
     ELSE NULL 
 END AS SeasAdjBool
 FROM {{ ref('bronze_DimSeries') }}"""

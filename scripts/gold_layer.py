@@ -19,6 +19,7 @@ def create_gold_sql_union_all_file(target_directory):
     ds.Name,
     ds.Frequency,
     ds.Units,
+    ds.SeasAdj,
     ds.SeasAdjBool AS SeasonallyAdjusted,
     dc.Category
     FROM {{ ref('silver_FactSeries_setdatatypes') }} fs

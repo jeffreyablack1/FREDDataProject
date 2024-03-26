@@ -83,13 +83,13 @@ Units: Dollars per Barrel ($ per Barrel)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1986-01-02
 
-Latest Observation Date Available: 2024-03-11
+Latest Observation Date Available: 2024-03-18
 
-Last FRED Update Date: 2024-03-13 12:11:01-05
+Last FRED Update Date: 2024-03-20 12:31:02-05
 
 FRED Popularity Ranking: 77
 
@@ -109,13 +109,13 @@ Units: Dollars per Gallon ($ per Gallon)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1990-08-20
 
-Latest Observation Date Available: 2024-03-11
+Latest Observation Date Available: 2024-03-18
 
-Last FRED Update Date: 2024-03-11 17:14:02-05
+Last FRED Update Date: 2024-03-18 17:02:02-05
 
 FRED Popularity Ranking: 69
 
@@ -135,13 +135,13 @@ Units: Dollars per Gallon ($ per Gallon)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1992-07-09
 
-Latest Observation Date Available: 2024-03-11
+Latest Observation Date Available: 2024-03-18
 
-Last FRED Update Date: 2024-03-13 12:11:03-05
+Last FRED Update Date: 2024-03-20 12:31:04-05
 
 FRED Popularity Ranking: 42
 
@@ -161,7 +161,7 @@ Units: Index 1982-1984=100 (Index 1982-1984=100)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1947-01-01
 
@@ -187,7 +187,7 @@ Units: Index 1982=100 (Index 1982=100)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1913-01-01
 
@@ -213,7 +213,7 @@ Units: Billions of Dollars (Bil. of $)
 Seasonality: Seasonally Adjusted Annual Rate (SAAR)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1959-01-01
 
@@ -239,7 +239,7 @@ Units: Index 1982-1984=100 (Index 1982-1984=100)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1957-01-01
 
@@ -265,7 +265,7 @@ Units: Index 1966:Q1=100 (Index 1966:Q1=100)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1952-11-01
 
@@ -291,7 +291,7 @@ Units: Index 2017=100 (Index 2017=100)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1959-01-01
 
@@ -317,7 +317,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1978-01-01
 
@@ -343,7 +343,7 @@ Units: Thousands of Persons (Thous. of Persons)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1939-01-01
 
@@ -369,7 +369,7 @@ Units: Percent (%)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1948-01-01
 
@@ -395,7 +395,7 @@ Units: Dollars per Hour ($ per Hour)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 2006-03-01
 
@@ -421,7 +421,7 @@ Units: Percent (%)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1948-01-01
 
@@ -447,7 +447,7 @@ Units: Level in Thousands (Level in Thous.)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 2000-12-01
 
@@ -473,13 +473,13 @@ Units: Number (Number)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1967-01-07
 
-Latest Observation Date Available: 2024-03-09
+Latest Observation Date Available: 2024-03-16
 
-Last FRED Update Date: 2024-03-14 07:33:01-05
+Last FRED Update Date: 2024-03-21 07:33:01-05
 
 FRED Popularity Ranking: 81
 
@@ -499,7 +499,7 @@ Units: Persons (Persons)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 2010-01-02
 
@@ -525,7 +525,7 @@ Units: Percent (%)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1994-01-01
 
@@ -551,7 +551,7 @@ Units: Hours (Hours)
 Seasonality: Seasonally Adjusted (SA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1964-01-01
 
@@ -577,7 +577,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1954-07-01
 
@@ -603,7 +603,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1982-09-27
 
@@ -629,7 +629,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 2008-10-09
 
@@ -655,7 +655,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1934-02-02
 
@@ -681,13 +681,13 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1962-01-02
 
-Latest Observation Date Available: 2024-03-14
+Latest Observation Date Available: 2024-03-21
 
-Last FRED Update Date: 2024-03-15 15:18:02-05
+Last FRED Update Date: 2024-03-22 15:18:11-05
 
 FRED Popularity Ranking: 92
 
@@ -707,13 +707,13 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 2018-04-03
 
-Latest Observation Date Available: 2024-03-15
+Latest Observation Date Available: 2024-03-22
 
-Last FRED Update Date: 2024-03-18 07:02:01-05
+Last FRED Update Date: 2024-03-25 07:02:10-05
 
 FRED Popularity Ranking: 83
 
@@ -733,7 +733,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1955-08-04
 
@@ -759,7 +759,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1934-01-01
 
@@ -785,13 +785,13 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1997-01-02
 
-Latest Observation Date Available: 2024-03-13
+Latest Observation Date Available: 2024-03-21
 
-Last FRED Update Date: 2024-03-14 16:02:09-05
+Last FRED Update Date: 2024-03-22 16:03:05-05
 
 FRED Popularity Ranking: 41
 
@@ -811,7 +811,7 @@ Units: Index Jan 2000=100 (Index Jan 2000=100)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1987-01-01
 
@@ -837,13 +837,13 @@ Units: Thousands (Thous.)
 Seasonality: Seasonally Adjusted Annual Rate (SAAR)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1963-01-01
 
-Latest Observation Date Available: 2024-01-01
+Latest Observation Date Available: 2024-02-01
 
-Last FRED Update Date: 2024-02-26 09:01:04-06
+Last FRED Update Date: 2024-03-25 09:01:04-05
 
 FRED Popularity Ranking: 71
 
@@ -863,13 +863,13 @@ Units: Thousands of Units (Thous. of Units)
 Seasonality: Seasonally Adjusted Annual Rate (SAAR)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1960-01-01
 
-Latest Observation Date Available: 2024-01-01
+Latest Observation Date Available: 2024-02-01
 
-Last FRED Update Date: 2024-02-26 07:23:01-06
+Last FRED Update Date: 2024-03-25 07:03:02-05
 
 FRED Popularity Ranking: 71
 
@@ -889,13 +889,13 @@ Units: Thousands of Units (Thous. of Units)
 Seasonality: Seasonally Adjusted Annual Rate (SAAR)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1959-01-01
 
-Latest Observation Date Available: 2024-01-01
+Latest Observation Date Available: 2024-02-01
 
-Last FRED Update Date: 2024-02-16 07:32:02-06
+Last FRED Update Date: 2024-03-19 07:32:02-05
 
 FRED Popularity Ranking: 79
 
@@ -915,7 +915,7 @@ Units: Index 1980:Q1=100 (Index 1980 Q1=100)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1975-01-01
 
@@ -941,13 +941,13 @@ Units: Number of Units (Number of Units)
 Seasonality: Seasonally Adjusted Annual Rate (SAAR)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
-Earliest Observation Date Available: 2023-01-01
+Earliest Observation Date Available: 2023-02-01
 
-Latest Observation Date Available: 2024-01-01
+Latest Observation Date Available: 2024-02-01
 
-Last FRED Update Date: 2024-02-22 13:44:01-06
+Last FRED Update Date: 2024-03-21 09:15:23-05
 
 FRED Popularity Ranking: 75
 
@@ -967,13 +967,13 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1971-04-02
 
-Latest Observation Date Available: 2024-03-14
+Latest Observation Date Available: 2024-03-21
 
-Last FRED Update Date: 2024-03-14 11:06:02-05
+Last FRED Update Date: 2024-03-21 11:06:01-05
 
 FRED Popularity Ranking: 99
 
@@ -993,7 +993,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1956-01-01
 
@@ -1019,7 +1019,7 @@ Units: Percent (%)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
 Earliest Observation Date Available: 1965-01-01
 
@@ -1045,13 +1045,13 @@ Units: Number of Units (Number of Units)
 Seasonality: Not Seasonally Adjusted (NSA)
 
 
-Last Fetch Date: 2024-03-18
+Last Fetch Date: 2024-03-25
 
-Earliest Observation Date Available: 2023-01-01
+Earliest Observation Date Available: 2023-02-01
 
-Latest Observation Date Available: 2024-01-01
+Latest Observation Date Available: 2024-02-01
 
-Last FRED Update Date: 2024-02-22 13:44:03-06
+Last FRED Update Date: 2024-03-21 09:15:17-05
 
 FRED Popularity Ranking: 69
 

@@ -4,556 +4,1110 @@ models:
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['DCOILWTICO']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactGASREGW
     description: '{{ doc("bronze_FactGASREGW") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['GASREGW']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactDPROPANEMBTX
     description: '{{ doc("bronze_FactDPROPANEMBTX") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['DPROPANEMBTX']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactCPIAUCSL
     description: '{{ doc("bronze_FactCPIAUCSL") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CPIAUCSL']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactPPIACO
     description: '{{ doc("bronze_FactPPIACO") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PPIACO']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactPCE
     description: '{{ doc("bronze_FactPCE") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PCE']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactCPILFESL
     description: '{{ doc("bronze_FactCPILFESL") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CPILFESL']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactUMCSENT
     description: '{{ doc("bronze_FactUMCSENT") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['UMCSENT']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactPCEPILFE
     description: '{{ doc("bronze_FactPCEPILFE") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PCEPILFE']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactMICH
     description: '{{ doc("bronze_FactMICH") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['MICH']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactPAYEMS
     description: '{{ doc("bronze_FactPAYEMS") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PAYEMS']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactUNRATE
     description: '{{ doc("bronze_FactUNRATE") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['UNRATE']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactCES0500000003
     description: '{{ doc("bronze_FactCES0500000003") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CES0500000003']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactCIVPART
     description: '{{ doc("bronze_FactCIVPART") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CIVPART']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactJTSJOL
     description: '{{ doc("bronze_FactJTSJOL") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['JTSJOL']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactICSA
     description: '{{ doc("bronze_FactICSA") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ICSA']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactADPWNUSNERSA
     description: '{{ doc("bronze_FactADPWNUSNERSA") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ADPWNUSNERSA']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactU6RATE
     description: '{{ doc("bronze_FactU6RATE") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['U6RATE']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactAWHNONAG
     description: '{{ doc("bronze_FactAWHNONAG") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['AWHNONAG']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactFEDFUNDS
     description: '{{ doc("bronze_FactFEDFUNDS") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['FEDFUNDS']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactDFEDTAR
     description: '{{ doc("bronze_FactDFEDTAR") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['DFEDTAR']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactIOER
     description: '{{ doc("bronze_FactIOER") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['IOER']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactDISCOUNT
     description: '{{ doc("bronze_FactDISCOUNT") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['DISCOUNT']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactDGS10
     description: '{{ doc("bronze_FactDGS10") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['DGS10']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactSOFR
     description: '{{ doc("bronze_FactSOFR") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SOFR']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactPRIME
     description: '{{ doc("bronze_FactPRIME") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PRIME']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactTB3MS
     description: '{{ doc("bronze_FactTB3MS") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['TB3MS']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactCPFF
     description: '{{ doc("bronze_FactCPFF") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CPFF']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactCSUSHPINSA
     description: '{{ doc("bronze_FactCSUSHPINSA") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CSUSHPINSA']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactHSN1F
     description: '{{ doc("bronze_FactHSN1F") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['HSN1F']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactPERMIT
     description: '{{ doc("bronze_FactPERMIT") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PERMIT']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactHOUST
     description: '{{ doc("bronze_FactHOUST") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['HOUST']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactUSSTHPI
     description: '{{ doc("bronze_FactUSSTHPI") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['USSTHPI']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactEXHOSLUSM495S
     description: '{{ doc("bronze_FactEXHOSLUSM495S") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['EXHOSLUSM495S']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactMORTGAGE30US
     description: '{{ doc("bronze_FactMORTGAGE30US") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['MORTGAGE30US']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactRRVRUSQ156N
     description: '{{ doc("bronze_FactRRVRUSQ156N") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['RRVRUSQ156N']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactRHORUSQ156N
     description: '{{ doc("bronze_FactRHORUSQ156N") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['RHORUSQ156N']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_FactHOSINVUSM495N
     description: '{{ doc("bronze_FactHOSINVUSM495N") }}'
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['HOSINVUSM495N']
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: bronze_DimCategories
     description: This dimension table is the metadata that categorizes each series into binned groups determined at user input of data pipeline start. 
     columns:
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - unique
+          - not_null
       - name: Category
         description: '{{ doc("Category") }}'
+        tests:
+          - not_null
   - name: bronze_DimSeries
     description: This dimension table is the metadata for each series and is defined by the FRED. 
     columns:
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - unique
+          - not_null
       - name: RealTimeStart
         description: '{{ doc("RealTimeStart") }}'
+        tests:
+          - not_null
       - name: RealTimeEnd
         description: '{{ doc("RealTimeEnd") }}'
+        tests:
+          - not_null
       - name: Name
         description: '{{ doc("Name") }}'
+        tests:
+          - not_null
       - name: ObservationStart
         description: '{{ doc("ObservationStart") }}'
+        tests:
+          - not_null
       - name: ObservationEnd
         description: '{{ doc("ObservationEnd") }}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{ doc("Frequency") }}'
+        tests:
+          - not_null
       - name: FrequencyAbbr
         description: '{{ doc("FrequencyAbbr") }}'
+        tests:
+          - not_null
       - name: Units
         description: '{{ doc("Units") }}'
+        tests:
+          - not_null
       - name: UnitsAbbr
         description: '{{ doc("UnitsAbbr") }}'
+        tests:
+          - not_null
       - name: SeasAdj
         description: '{{ doc("SeasAdj") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
       - name: SeasAdjAbbr
         description: '{{ doc("SeasAdjAbbr") }}'
-      - name: SeasAdjBool
-        description: '{{ doc("SeasAdjBool") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['NSA', 'SA', 'SAAR']
   - name: silver_FactSeries_unionall
     description: This table unions all bronze Fact tables into one vertical table.
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: silver_FactSeries_setdatatypes
     description: This table explicitly assigns datatypes to each column. 
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
       - name: FetchDate
         description: '{{ doc("FetchDate") }}'
+        tests:
+          - not_null
   - name: silver_DimSeries_setdatatypes
     description: This table explicitly assigns datatypes to each column. 
     columns:
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
       - name: RealTimeStart
         description: '{{ doc("RealTimeStart") }}'
+        tests:
+          - not_null
       - name: RealTimeEnd
         description: '{{ doc("RealTimeEnd") }}'
+        tests:
+          - not_null
       - name: Name
         description: '{{ doc("Name") }}'
+        tests:
+          - not_null
       - name: ObservationStart
         description: '{{ doc("ObservationStart") }}'
+        tests:
+          - not_null
       - name: ObservationEnd
         description: '{{ doc("ObservationEnd") }}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{ doc("Frequency") }}'
+        tests:
+          - not_null
       - name: FrequencyAbbr
         description: '{{ doc("FrequencyAbbr") }}'
+        tests:
+          - not_null
       - name: Units
         description: '{{ doc("Units") }}'
+        tests:
+          - not_null
       - name: UnitsAbbr
         description: '{{ doc("UnitsAbbr") }}'
+        tests:
+          - not_null
       - name: SeasAdj
         description: '{{ doc("SeasAdj") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
       - name: SeasAdjAbbr
         description: '{{ doc("SeasAdjAbbr") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['NSA', 'SA', 'SAAR']
       - name: SeasAdjBool
         description: '{{ doc("SeasAdjBool") }}'
+        tests:
+          - not_null
   - name: silver_DimSeries_binaryconversion
     description: This table adds a column of data for Seasonality Adjustment (True/False). 
     columns:
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
       - name: RealTimeStart
         description: '{{ doc("RealTimeStart") }}'
+        tests:
+          - not_null
       - name: RealTimeEnd
         description: '{{ doc("RealTimeEnd") }}'
+        tests:
+          - not_null
       - name: Name
         description: '{{ doc("Name") }}'
+        tests:
+          - not_null
       - name: ObservationStart
         description: '{{ doc("ObservationStart") }}'
+        tests:
+          - not_null
       - name: ObservationEnd
         description: '{{ doc("ObservationEnd") }}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{ doc("Frequency") }}'
+        tests:
+          - not_null
       - name: FrequencyAbbr
         description: '{{ doc("FrequencyAbbr") }}'
+        tests:
+          - not_null
       - name: Units
         description: '{{ doc("Units") }}'
+        tests:
+          - not_null
       - name: UnitsAbbr
         description: '{{ doc("UnitsAbbr") }}'
+        tests:
+          - not_null
       - name: SeasAdj
         description: '{{ doc("SeasAdj") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
       - name: SeasAdjAbbr
         description: '{{ doc("SeasAdjAbbr") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['NSA', 'SA', 'SAAR']
       - name: SeasAdjBool
         description: '{{ doc("SeasAdjBool") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: [True, False]
   - name: silver_DimCategories_setdatatypes
     description: This table explicitly assigns datatypes to each column. 
     columns:
       - name: SeriesID
         description: '{{ doc("SeriesID") }}'
+        tests:
+          - not_null
       - name: Category
         description: '{{ doc("Category") }}'
+        tests:
+          - not_null
   - name: gold_freddata
     description: This is the final table of all series and is ready for analytics ingestion. 
     columns:
       - name: Date
         description: '{{ doc("Date") }}'
+        tests:
+          - not_null
       - name: Series
         description: '{{ doc("Series") }}'
+        tests:
+          - not_null
       - name: Name
         description: '{{ doc("Name") }}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{ doc("Frequency") }}'
+        tests:
+          - not_null
       - name: Units
         description: '{{ doc("Units") }}'
-      - name: SeasonallyAdjusted
+        tests:
+          - not_null
+      - name: SeasAdj
         description: '{{ doc("SeasAdj") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
+      - name: SeasonallyAdjusted
+        description: '{{ doc("SeasAdjBool") }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: [True, False]
       - name: Category
         description: '{{ doc("Category") }}'
+        tests:
+          - not_null

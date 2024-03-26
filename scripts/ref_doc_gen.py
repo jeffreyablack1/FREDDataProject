@@ -156,12 +156,23 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: Date
         description: '{{{{ doc("Date") }}}}'
+        tests:
+          - unique
+          - not_null
       - name: Series
         description: '{{{{ doc("Series") }}}}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['{i}']
       - name: FetchDate
         description: '{{{{ doc("FetchDate") }}}}'
+        tests:
+          - not_null
 """
             file.write(yaml_bronze_content)
         yaml_bronze_DimCategories_content = f"""  - name: bronze_DimCategories
@@ -169,8 +180,13 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - unique
+          - not_null
       - name: Category
         description: '{{{{ doc("Category") }}}}'
+        tests:
+          - not_null
 """
         file.write(yaml_bronze_DimCategories_content)
 
@@ -180,30 +196,57 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - unique
+          - not_null
       - name: RealTimeStart
         description: '{{{{ doc("RealTimeStart") }}}}'
+        tests:
+          - not_null
       - name: RealTimeEnd
         description: '{{{{ doc("RealTimeEnd") }}}}'
+        tests:
+          - not_null
       - name: Name
         description: '{{{{ doc("Name") }}}}'
+        tests:
+          - not_null
       - name: ObservationStart
         description: '{{{{ doc("ObservationStart") }}}}'
+        tests:
+          - not_null
       - name: ObservationEnd
         description: '{{{{ doc("ObservationEnd") }}}}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{{{ doc("Frequency") }}}}'
+        tests:
+          - not_null
       - name: FrequencyAbbr
         description: '{{{{ doc("FrequencyAbbr") }}}}'
+        tests:
+          - not_null
       - name: Units
         description: '{{{{ doc("Units") }}}}'
+        tests:
+          - not_null
       - name: UnitsAbbr
         description: '{{{{ doc("UnitsAbbr") }}}}'
+        tests:
+          - not_null
       - name: SeasAdj
         description: '{{{{ doc("SeasAdj") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
       - name: SeasAdjAbbr
         description: '{{{{ doc("SeasAdjAbbr") }}}}'
-      - name: SeasAdjBool
-        description: '{{{{ doc("SeasAdjBool") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['NSA', 'SA', 'SAAR']
 """
         file.write(yaml_bronze_DimSeries_content)
         
@@ -213,12 +256,20 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: Date
         description: '{{{{ doc("Date") }}}}'
+        tests:
+          - not_null
       - name: Series
         description: '{{{{ doc("Series") }}}}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - not_null
       - name: FetchDate
         description: '{{{{ doc("FetchDate") }}}}'
+        tests:
+          - not_null
 """
         file.write(yaml_silver_FactSeries_unionall_content)
         yaml_silver_FactSeries_setdatatypes_content = f"""  - name: silver_FactSeries_setdatatypes
@@ -226,12 +277,20 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: Date
         description: '{{{{ doc("Date") }}}}'
+        tests:
+          - not_null
       - name: Series
         description: '{{{{ doc("Series") }}}}'
+        tests:
+          - not_null
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - not_null
       - name: FetchDate
         description: '{{{{ doc("FetchDate") }}}}'
+        tests:
+          - not_null
 """
         file.write(yaml_silver_FactSeries_setdatatypes_content)
         yaml_silver_DimSeries_setdatatypes_content = f"""  - name: silver_DimSeries_setdatatypes
@@ -239,30 +298,60 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - not_null
       - name: RealTimeStart
         description: '{{{{ doc("RealTimeStart") }}}}'
+        tests:
+          - not_null
       - name: RealTimeEnd
         description: '{{{{ doc("RealTimeEnd") }}}}'
+        tests:
+          - not_null
       - name: Name
         description: '{{{{ doc("Name") }}}}'
+        tests:
+          - not_null
       - name: ObservationStart
         description: '{{{{ doc("ObservationStart") }}}}'
+        tests:
+          - not_null
       - name: ObservationEnd
         description: '{{{{ doc("ObservationEnd") }}}}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{{{ doc("Frequency") }}}}'
+        tests:
+          - not_null
       - name: FrequencyAbbr
         description: '{{{{ doc("FrequencyAbbr") }}}}'
+        tests:
+          - not_null
       - name: Units
         description: '{{{{ doc("Units") }}}}'
+        tests:
+          - not_null
       - name: UnitsAbbr
         description: '{{{{ doc("UnitsAbbr") }}}}'
+        tests:
+          - not_null
       - name: SeasAdj
         description: '{{{{ doc("SeasAdj") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
       - name: SeasAdjAbbr
         description: '{{{{ doc("SeasAdjAbbr") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['NSA', 'SA', 'SAAR']
       - name: SeasAdjBool
         description: '{{{{ doc("SeasAdjBool") }}}}'
+        tests:
+          - not_null
 """
         file.write(yaml_silver_DimSeries_setdatatypes_content)
         yaml_silver_DimSeries_binaryconversion_content = f"""  - name: silver_DimSeries_binaryconversion
@@ -270,30 +359,62 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - not_null
       - name: RealTimeStart
         description: '{{{{ doc("RealTimeStart") }}}}'
+        tests:
+          - not_null
       - name: RealTimeEnd
         description: '{{{{ doc("RealTimeEnd") }}}}'
+        tests:
+          - not_null
       - name: Name
         description: '{{{{ doc("Name") }}}}'
+        tests:
+          - not_null
       - name: ObservationStart
         description: '{{{{ doc("ObservationStart") }}}}'
+        tests:
+          - not_null
       - name: ObservationEnd
         description: '{{{{ doc("ObservationEnd") }}}}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{{{ doc("Frequency") }}}}'
+        tests:
+          - not_null
       - name: FrequencyAbbr
         description: '{{{{ doc("FrequencyAbbr") }}}}'
+        tests:
+          - not_null
       - name: Units
         description: '{{{{ doc("Units") }}}}'
+        tests:
+          - not_null
       - name: UnitsAbbr
         description: '{{{{ doc("UnitsAbbr") }}}}'
+        tests:
+          - not_null
       - name: SeasAdj
         description: '{{{{ doc("SeasAdj") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
       - name: SeasAdjAbbr
         description: '{{{{ doc("SeasAdjAbbr") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['NSA', 'SA', 'SAAR']
       - name: SeasAdjBool
         description: '{{{{ doc("SeasAdjBool") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: [True, False]
 """
         file.write(yaml_silver_DimSeries_binaryconversion_content)
         yaml_silver_DimCategories_setdatatypes_content = f"""  - name: silver_DimCategories_setdatatypes
@@ -301,8 +422,12 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: SeriesID
         description: '{{{{ doc("SeriesID") }}}}'
+        tests:
+          - not_null
       - name: Category
         description: '{{{{ doc("Category") }}}}'
+        tests:
+          - not_null
 """
         file.write(yaml_silver_DimCategories_setdatatypes_content)
         
@@ -311,18 +436,40 @@ def write_schema_yaml(target_path, fred_series_ids):
     columns:
       - name: Date
         description: '{{{{ doc("Date") }}}}'
+        tests:
+          - not_null
       - name: Series
         description: '{{{{ doc("Series") }}}}'
+        tests:
+          - not_null
       - name: Name
         description: '{{{{ doc("Name") }}}}'
+        tests:
+          - not_null
       - name: Frequency
         description: '{{{{ doc("Frequency") }}}}'
+        tests:
+          - not_null
       - name: Units
         description: '{{{{ doc("Units") }}}}'
-      - name: SeasonallyAdjusted
+        tests:
+          - not_null
+      - name: SeasAdj
         description: '{{{{ doc("SeasAdj") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Seasonally Adjusted Annual Rate', 'Not Seasonally Adjusted', 'Seasonally Adjusted']
+      - name: SeasonallyAdjusted
+        description: '{{{{ doc("SeasAdjBool") }}}}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: [True, False]
       - name: Category
         description: '{{{{ doc("Category") }}}}'
+        tests:
+          - not_null
 """
         file.write(yaml_gold_freddata_content)
         print("YAML File Created: {}".format(target_path))
@@ -337,7 +484,8 @@ def execute_dbt_commands():
     commands = [
         "dbt debug",
         "dbt compile",
-        "dbt run"
+        "dbt run",
+        "dbt test"
     ]
 
     for command in commands:
